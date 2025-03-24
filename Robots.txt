@@ -1,2 +1,6 @@
 User-agent: *
+Disallow: /Teer-win-login/
+User-agent: *
+Disallow: /
+User-agent: *
 Disallow: /Teer-win-login-/
