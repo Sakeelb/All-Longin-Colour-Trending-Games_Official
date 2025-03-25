@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Longin Colour Trending Games - Official</title>
+    <title>All Colour Trending Games - Official</title>
     
-    <!-- Google Search + Browser Tab के लिए Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/webp" href="https://raw.githubusercontent.com/Sakeelb/All-Longin-Colour-Trending-Games_Official/refs/heads/main/WEBLOGO.png">
 
     <meta name="description" content="Teer Win Login - Access your account to enjoy exclusive bonuses and daily promo codes. Join now and start winning big!">
@@ -13,7 +13,7 @@
     <meta name="author" content="SakeelB">
     <meta name="robots" content="index, follow">
 
-    <!-- ✅ Structured Data (Google को Logo दिखाने के लिए) -->
+    <!-- Google Logo Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -31,14 +31,11 @@
             font-family: Arial, sans-serif;
             text-align: center;
             color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
         }
 
+        /* ✅ Top पर ब्लैक बॉक्स fix */
         .container {
             background-color: rgba(0, 0, 0, 0.85);
             color: yellow;
@@ -47,6 +44,10 @@
             width: 90%;
             max-width: 350px;
             box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+            margin: 20px auto;
+            position: sticky;
+            top: 10px;
+            z-index: 1000;
         }
 
         h1 {
@@ -93,6 +94,12 @@
             max-height: 250px;
             width: 100%;
         }
+        /* ✅ Games List नीचे रहेंगे */
+        .game-container {
+            margin-top: -5px;
+            overflow-y: auto;
+            padding-bottom: 50px;
+        }
 
         .game-btn {
             display: flex;
@@ -106,7 +113,7 @@
             padding: 10px 20px;
             border-radius: 5px;
             width: 80%;
-            margin: auto;
+            margin: 10px auto;
             border: none;
         }
 
@@ -125,11 +132,11 @@
         .game-btn + .game-btn {
             margin-top: 15px;
         }
-
     </style>
 </head>
 <body>
 
+    <!-- ✅ सबसे ऊपर ब्लैक बॉक्स -->
     <div class="container">
         <h1>🚀 TEER WIN TRENDING 🚀</h1>
         <p>🎁 Signing Bonus: ₹100-5000</p>
@@ -141,32 +148,25 @@
         </div>
     </div>
 
+    <!-- ✅ Games नीचे रहेंगे -->
     <div class="game-container">
-        <!-- Jalwa Game Button -->
         <a href="https://www.jalwagame.win/#/register?invitationCode=74546136755" class="game-btn">
             <img src="https://raw.githubusercontent.com/Sakeelb/Teer-win-login/refs/heads/main/jalwa-game-768x439.jpg" alt="Jalwa Logo">
             JALWA COLOUR TRENDING GAME - OFFICIAL
         </a>
-
-        <!-- 7Lottery Game Button -->
         <a href="https://www.nlottery7.com/#/register?invitationCode=534272621644" class="game-btn">
             <img src="https://raw.githubusercontent.com/Sakeelb/Teer-win-login/refs/heads/main/images.jpeg" alt="7Lottery Logo">
             7LOTTERY COLOUR TRENDING GAME - OFFICIAL
         </a>
-
-        <!-- Raja.Luck Game Button -->
         <a href="https://rajaluck.com/#/register?invitationCode=PYrWl35274" class="game-btn">
             <img src="https://raw.githubusercontent.com/Sakeelb/Teer-win-login/refs/heads/main/images%20(1).jpeg" alt="Raja Luck Logo">
             RAJA.LUCK COLOUR TRENDING GAME - OFFICIAL
         </a>
-
-        <!-- 82Lottery Game Button -->
         <a href="https://www.82bet99.com/#/register?invitationCode=882161910098" class="game-btn">
             <img src="https://raw.githubusercontent.com/Sakeelb/Teer-win-login/refs/heads/main/images%20(2).jpeg" alt="82Lottery Logo">
             82LOTTERY COLOUR TRENDING GAME - OFFICIAL
         </a>
-
-        <!-- 91Club Game Button -->
+      <!-- 91Club Game Button -->
         <a href="https://www.91appv.com/#/register?invitationCode=356259121502" class="game-btn">
             <img src="https://raw.githubusercontent.com/Sakeelb/Teer-win-login/refs/heads/main/download.jpeg" alt="91Club Logo">
             91CLUB COLOUR TRENDING GAME - OFFICIAL
