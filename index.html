@@ -43,10 +43,23 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
-            margin-top: 15px;
+            justify-content: center;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            padding: 10px 0;
+            gap: 12px; /* बटन के बीच का गैप बैलेंस किया */
         }
-
+        
+        .button-group .btn, 
+        .button-group .game-btn {
+            width: 92%; /* थोड़ा ज्यादा जगह दी ताकि बैलेंस दिखे */
+            padding: 14px; /* ऊंचाई को थोड़ा नेचुरल किया */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px; /* बटन को हल्का स्मूथ लुक दिया */
+        }
         .btn {
             background-color: #ffcc00;
             color: black;
